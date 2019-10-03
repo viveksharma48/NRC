@@ -18,11 +18,13 @@ public class Center {
     }
 
     public void setTitle(String name) {
-        this.title = name;
+//        this.title = name;
+	this.title=name;	
     }
 
     public String getYear() {
-        return dist;
+//        return dist;
+	return dist;
     }
 
     public void setYear(String dist) {
