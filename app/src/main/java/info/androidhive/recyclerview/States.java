@@ -1,5 +1,6 @@
 package info.androidhive.recyclerview;
 
+import android.*;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
@@ -27,7 +28,8 @@ public class States extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
 
-        mAdapter = new CentersAdapter(centerList);
+        //mAdapter = new CentersAdapter(centerList);
+	 mAdapter = new CentersAdapter(centerList);
 
         recyclerView.setHasFixedSize(true);
 
